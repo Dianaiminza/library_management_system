@@ -1,0 +1,35 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install",
+    "migrate": "sequelize-cli db:migrate && sequelize-cli db:seed:all",
+    "start": "node index.js",
+    "test": "jest test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "migrations": "^1.5.0",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.14.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.6",
+    "sqlite3": "^5.1.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "sequelize-cli": "^6.6.2",
+    "supertest": "^7.0.0"
+  }
+}
