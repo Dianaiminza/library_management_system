@@ -50,7 +50,7 @@ The server should now be running on `http://localhost:3000`.
 - `PUT /api/books/:id` – Update book details
 - `DELETE /api/books/:id` – Delete a book
 
-(Include other API endpoints as required.)
+
 
 ## Contributing
 
