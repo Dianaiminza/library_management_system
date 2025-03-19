@@ -60,6 +60,3 @@ Feel free to fork the repository, create a pull request, and contribute to the p
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-You can adjust and expand this description based on the specific features or structure of your project.
